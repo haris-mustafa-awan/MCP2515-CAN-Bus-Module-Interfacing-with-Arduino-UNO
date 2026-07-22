@@ -55,7 +55,7 @@ void setup()
 
   Serial.println("CAN Module Connected");
 
-  CAN.setMode(MCP_NORMAL);   // loopback ki jagah normal mode
+  CAN.setMode(MCP_NORMAL);   
 }
 
 void loop()
